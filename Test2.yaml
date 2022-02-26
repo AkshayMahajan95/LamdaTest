@@ -1,0 +1,11 @@
+name: Suite
+threadCount: 3
+parallel: classes
+configFailurePolicy: skip
+tests:
+  - name: Test
+  parallel: classes
+  parameters: { browser: Firefox, version: 98.0, platform: Windows 10 }
+  classes:
+    - TestScripts.Test1
+

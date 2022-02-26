@@ -1,0 +1,6 @@
+name: MultipleSuite
+configFailurePolicy: skip
+suite-files:
+  - Test1.xml
+  - Test2.xml
+  - Test3.xml

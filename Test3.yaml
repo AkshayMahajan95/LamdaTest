@@ -1,0 +1,11 @@
+name: Suite
+threadCount: 3
+parallel: classes
+configFailurePolicy: skip
+tests:
+  - name: Test3
+  parallel: classes
+  parameters: { browser: Safari, version: 13.0, platform: macOS Catalina }
+  classes:
+    - TestScripts.Test3
+
